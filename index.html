@@ -14,7 +14,7 @@
             margin: 0;
             padding: 20px;
             font-family:'helvetica neue';
-            font-size: 40px;
+            font-size: 35px;
             font-weight: 600;
         }
 
@@ -30,15 +30,23 @@
             margin: 10px;
             margin-bottom: 20px;
         }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        h4 {
+            font-size: 13px;
+        }
     </style>
     <link rel="shortcut icon" href="src/ch.png" type="image/x-icon">
     <script src="scans.js"></script>
 </head>
 <body>
     <h1>CoinHonesty Scanner <small>V1.0</small><input style="margin: 15px;" type="text" id="coinname" placeholder="SEARCH A COIN!"><button onclick="location.href = '?'+(document.querySelector('#coinname').value.toLocaleUpperCase())">SEARCH!</button> <img src="src/ch.png" width="70px" style="float:right"></h1>
-    <p>Would you like to see a new coin? <a href="https://m.facebook.com/profile.php?id=61555403785690">Message us on Facebook!</a></p>
+    <p><strong>1</strong> Coin scanned so far! Would you like to see a new coin? <a href="https://m.facebook.com/profile.php?id=61555403785690">Message us on Facebook!</a></p>
     <div style="display: flex">
-        <div style="border: 5px solid white; width:23%; height: 85svh;">
+        <div style="border: 5px solid white; width:23%; height: 80svh;">
             <h3>Info</h3>
             <div style="margin-left: 20px" id="info">
                 <h2><small>Name:</small> <span></span></h2>
@@ -52,12 +60,12 @@
                 <h2><small>MC Score:</small> <span></span>/100</h2>
             </div>
         </div>
-        <div style="border: 5px solid white; width:53%; height: 85svh;">
+        <div style="border: 5px solid white; width:53%; height: 80svh;">
             <h3>Basic Data</h3>
             <canvas id="basicdata"></canvas>
             <!-- <canvas id="holders"></canvas> -->
         </div>
-        <div style="border: 5px solid white; width:23%; height: 85svh;" id="lnks">
+        <div style="border: 5px solid white; width:23%; height: 80svh;" id="lnks">
             <h3>Socials and Links</h3>
             <div style="margin-left: 20px" id="lnksimgs">
                 <a href=""><img src="src/X.png" width="70px"></a>
