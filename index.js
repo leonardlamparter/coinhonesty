@@ -4,12 +4,20 @@ var coin = coins[coin_name] || {"name": "COIN NOT YET SCANNED","contract": "","d
 var dta = [coin.name, coin.contract, coin.defi, coin.l_whale, coin.funny, coin.h24_vol, coin.swaps, coin.ttl_liq, coin.mc]
 document.querySelectorAll("#info span").forEach((v, i) => {
     v.innerHTML = dta[i]
+    v.classList.add(
+      coin.cols[i] == -1? "white" :
+      coin.cols[i] == 0?  "red"   :
+      coin.cols[i] == 1?  "green" : ''
+    )
+    v.parentElement.classList.add(
+      coin.cols[i] == -1? "white" :
+      coin.cols[i] == 0?  "red"   :
+      coin.cols[i] == 1?  "green" : ''
+    )
 })
 
-var allhidden = true
 document.querySelectorAll("#lnks a").forEach((v, i) => {
     coin.lnks[i] ? v.href = coin.lnks[i] : v.hidden = "hidden"
-    coin.lnks[i] ? allhidden = false : allhidden = allhidden
 })
 
 document.querySelector("#htb").innerHTML = coin.htb
