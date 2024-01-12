@@ -19,7 +19,8 @@ var coins = {
         false, // CMC
         false  // CoinGecko
     ],
-    "lnks_e" : false
+    "lnks_e" : false,
+    "htb" : "This is a scan used for testing purpouses, this is a real coin, how to buy this coin was not par of our website when we first launched"
     },
     "SNEK":
     {
@@ -41,7 +42,8 @@ var coins = {
         "https://coinmarketcap.com/currencies/snek/", // CMC
         "https://www.coingecko.com/en/coins/snek"  // CoinGecko
     ],
-    "lnks_e" : true
+    "lnks_e" : true,
+    "htb" : "To buy SNEK, you will need ADA (Cardano), from there you can trade ADA to SNEK on Minswap [https://minswap.org/]"
     },
     "DED":
     {
@@ -63,6 +65,7 @@ var coins = {
         false, // CMC
         false  // CoinGecko
     ],
-    "lnks_e" : true
+    "lnks_e" : true,
+    "htb" : "To participate in the airdrop, buy DOT (Polkadot), 1 DOT = 1000 DED"
     },
 }

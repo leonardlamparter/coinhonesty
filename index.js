@@ -12,6 +12,10 @@ document.querySelectorAll("#lnks a").forEach((v, i) => {
     coin.lnks[i] ? allhidden = false : allhidden = allhidden
 })
 
+document.querySelector("#htb").innerHTML = coin.htb
+
+// document.querySelector("#coinname").value = ""
+
 coin["lnks_e"] ? '' : document.querySelector("#lnksnotes").innerHTML = "No links nor socials found"
 
 var tags = ["Volume (millions)", "Swaps (ten thousands)", "Liquidity (millions)"]
@@ -35,7 +39,6 @@ new Chart("basicdata", {
         }
     }
 });
-
 
 new Chart("holders", {
     type: "pie",

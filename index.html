@@ -43,7 +43,7 @@
     <script src="scans.js"></script>
 </head>
 <body>
-    <h1>CoinHonesty Scanner <small>V1.0</small><input style="margin: 15px;" type="text" id="coinname" placeholder="SEARCH A COIN!"><button onclick="location.href = '?'+(document.querySelector('#coinname').value.toLocaleUpperCase())">SEARCH!</button> <img src="src/ch.png" width="70px" style="float:right"></h1>
+    <h1>CoinHonesty Scanner <small>V1.1</small><input style="margin: 15px;" type="text" id="coinname" placeholder="SEARCH A COIN!"><input id="searchbtn" onclick="location.href = '?'+(document.querySelector('#coinname').value.toLocaleUpperCase())" type="submit" value="SEARCH!"></input> <img src="src/ch.png" width="70px" style="float:right"></h1>
     <p><strong>3</strong> Coin scanned so far! Would you like to see a new coin? <a href="https://m.facebook.com/profile.php?id=61555403785690">Message us on Facebook!</a></p>
     <div style="display: flex">
         <div style="border: 5px solid white; width:23%; height: 80svh;">
@@ -76,6 +76,11 @@
                 <a href=""><img src="src/cg.png" width="70px"></a>
                 <h2 id="lnksnotes"></h2>
             </div>
+            <hr>
+            <h3>How To Buy</h3>
+            <p style="margin-left: 20px" id="htb">
+                To buy SNEK, you will need ADA (Cardano), from there you can trade ADA to SNEK on Minswap [https://minswap.org/]
+            </p>
         </div>
     </div>
     <script src="chart.js"></script>
