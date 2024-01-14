@@ -21,7 +21,8 @@ var coins = {
     ],
     "lnks_e" : false,
     "htb" : "This is a scan used for testing purpouses, this is a real coin, how to buy this coin was not par of our website when we first launched",
-    "cols" : [-1, -1, 0, 1, -1, 1, 1, 1, 1]
+    "cols" : [-1, -1, 0, 1, -1, 1, 1, 1, 1],
+    "l_wallets" : ["...", "...", "...", "...", "...", "...", "...", "...", "...", "..."]
     },
     "SNEK":
     {
@@ -44,8 +45,9 @@ var coins = {
         "https://www.coingecko.com/en/coins/snek"  // CoinGecko
     ],
     "lnks_e" : true,
-    "htb" : "To buy SNEK, you will need ADA (Cardano), from there you can trade ADA to SNEK on Minswap [https://minswap.org/]",
-    "cols" : [-1, -1, 1, 1, -1, 1, 1, 1, 1]
+    "htb" : "To buy <coin>$SNEK</coin>, you will need <coin>$ADA</coin> (Cardano), from there you can trade your <coin>$ADA</coin> to <coin>$SNEK</coin> on Minswap [https://minswap.org/]",
+    "cols" : [-1, -1, 1, 1, -1, 1, 1, 1, 1],
+    "l_wallets" : ["...", "...", "...", "...", "...", "...", "...", "...", "...", "..."]
     },
     "DED":
     {
@@ -68,7 +70,84 @@ var coins = {
         false  // CoinGecko
     ],
     "lnks_e" : true,
-    "htb" : "To participate in the airdrop, buy DOT (Polkadot), 1 DOT = 1000 DED",
+    "htb" : "To participate in the airdrop, buy <coin>$DOT</coin> (Polkadot), 1 <coin>$DOT</coin> = 1000 <coin>$DED</coin>",
+    "cols" : [-1, -1, 0, 0, -1, 0, 0, 0, 0],
+    "l_wallets" : ["...", "...", "...", "...", "...", "...", "...", "...", "...", "..."]
+    },
+    "MYRO":
+    {
+    "name": "MYRO",
+    "contract": "HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4",
+    "defi": 48,
+    "l_whale": 7.000,
+    "funny": "😂",
+    "h24_vol": "$13.39M",
+    "swaps": "25,134",
+    "ttl_liq": "$1.97M",
+    "mc": 69,
+    "bar_dta": [13.39, 25.134, 1.97],
+    "lnks" : [
+        "https://twitter.com/myrosol", // X
+        "https://de.fi/scanner/contract/0xde2e2eb81288a8612b135383ccc66e6257d4547e?chainId=eth", // De.Fi
+        "https://etherscan.io/token/0xde2e2eb81288a8612b135383ccc66e6257d4547e", // Etherscan
+        "https://app.bubblemaps.io/eth/token/0xde2e2eb81288a8612b135383ccc66e6257d4547e", // Bubblemaps
+        "https://coinmarketcap.com/dexscan/solana/5WGYajM1xtLy3QrLHGSX4YPwsso3jrjEsbU1VivUErzk", // CMC
+        "https://www.geckoterminal.com/solana/pools/5WGYajM1xtLy3QrLHGSX4YPwsso3jrjEsbU1VivUErzk?utm_medium=referral&utm_source=coingecko&utm_campaign=contract_selector&token_address=HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4"  // CoinGecko
+    ],
+    "lnks_e" : true,
+    "htb" : "First, buy <coin>$SOL</coin> (Solana), from there you can use MEXC to convert to <coin>$MYRO</coin>",
+    "cols" : [-1, -1, 0, 1, -1, 1, 1, 1, 1],
+    "l_wallets" : ["55.840% <small><small>(Uniswap V2)</small></small>", "7.000%", "6.599% <small><small>(Creator)</small></small>", "4.553%", "4.467%", "2.580%", "2.558%", "2.146%", "1.491%", "0.833%"]
+    },
+    // "SAVM":
+    // {
+    // "name": "SAVM",
+    // "contract": "",
+    // "defi": 0,
+    // "l_whale": 0,
+    // "funny": "😂",
+    // "h24_vol": "$0.00",
+    // "swaps": "",
+    // "ttl_liq": "$0.00",
+    // "mc": 0,
+    // "bar_dta": [0, 0, 0],
+    // "lnks" : [
+    //     false, // X
+    //     false, // De.Fi
+    //     false, // Etherscan
+    //     false, // Bubblemaps
+    //     false, // CMC
+    //     false  // CoinGecko
+    // ],
+    // "lnks_e" : false,
+    // "htb" : "Loading...",
+    // "cols" : [-1, -1, 0, 0, -1, 0, 0, 0, 0]
+    // },
+}
+
+/*
+    "":
+    {
+    "name": "",
+    "contract": "",
+    "defi": 0,
+    "l_whale": 0,
+    "funny": "",
+    "h24_vol": "$0.00",
+    "swaps": "0",
+    "ttl_liq": "$0.00",
+    "mc": 0,
+    "bar_dta": [0, 0, 0],
+    "lnks" : [
+        false, // X
+        false, // De.Fi
+        false, // Etherscan
+        false, // Bubblemaps
+        false, // CMC
+        false  // CoinGecko
+    ],
+    "lnks_e" : false,
+    "htb" : "Loading...",
     "cols" : [-1, -1, 0, 0, -1, 0, 0, 0, 0]
     },
-}
+*/

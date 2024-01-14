@@ -36,7 +36,7 @@
         }
 
         h4 {
-            font-size: 13px;
+            font-size: 8px;
         }
 
         .red {
@@ -50,17 +50,29 @@
         .white {
             color: whitesmoke;
         }
+
+        coin {
+            color: rgb(92, 201, 255)
+        }
+
+        .selected {
+            text-decoration: underline;
+        }
+
+        #ifo:hover, #lwallets:hover {
+            cursor: pointer;
+        }
     </style>
     <link rel="shortcut icon" href="src/ch.png" type="image/x-icon">
     <script src="scans.js"></script>
 </head>
 <body>
     <h1>CoinHonesty Scanner <small>V1.1</small><input style="margin: 15px;" type="text" id="coinname" placeholder="SEARCH A COIN!"><input id="searchbtn" onclick="location.href = '?'+(document.querySelector('#coinname').value.toLocaleUpperCase())" type="submit" value="SEARCH!"></input> <img src="src/ch.png" width="70px" style="float:right"></h1>
-    <p><strong>3</strong> Coin scanned so far! Would you like to see a new coin? <a href="https://m.facebook.com/profile.php?id=61555403785690">Message us on Facebook!</a></p>
+    <p><strong>4</strong> Coin scanned so far! Would you like to see a new coin? <a href="https://m.facebook.com/profile.php?id=61555403785690">Message us on Facebook!</a></p>
     <div style="display: flex">
-        <div style="border: 5px solid white; width:23%; height: 80svh;">
-            <h3>Info</h3>
-            <div style="margin-left: 20px" id="info">
+        <div style="border: 5px solid white; width:23%; height: 80svh; padding-left: 20px">
+            <h3 style="margin-left: -20px"><small><small><span id="ifo" class="selected">Info</span> | <span id="lwallets">Largest Wallets</span></small></small></h3>
+            <div id="ifo_div">
                 <h2><small>Name:</small> <span></span></h2>
                 <h2><small>Contract:</small><h4> <span></span></h4></h2>
                 <h2><small>De.Fi Score:</small> <span></span>/100</h2>
@@ -71,11 +83,22 @@
                 <h2><small>Total Liquidity:</small> <span></span></h2>
                 <h2><small>MC Score:</small> <span></span>/100</h2>
             </div>
+            <div id="lwallets_div" style="display: none">
+                <h2><small>#1  –</small> <span></span></h2>
+                <h2><small>#2  –</small> <span></span></h2>
+                <h2><small>#3  –</small> <span></span></h2>
+                <h2><small>#4  –</small> <span></span></h2>
+                <h2><small>#5  –</small> <span></span></h2>
+                <h2><small>#6  –</small> <span></span></h2>
+                <h2><small>#7  –</small> <span></span></h2>
+                <h2><small>#8  –</small> <span></span></h2>
+                <h2><small>#9  –</small> <span></span></h2>
+                <h2><small>#10 –</small> <span></span></h2>
+            </div>
         </div>
         <div style="border: 5px solid white; width:53%; height: 80svh;">
             <h3>Basic Data</h3>
             <canvas id="basicdata"></canvas>
-            <!-- <canvas id="holders"></canvas> -->
         </div>
         <div style="border: 5px solid white; width:23%; height: 80svh;" id="lnks">
             <h3>Socials and Links</h3>
