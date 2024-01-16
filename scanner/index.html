@@ -57,6 +57,11 @@
 
         .selected {
             text-decoration: underline;
+            color: limegreen;
+        }
+
+        .notselected {
+            color: crimson;
         }
 
         #ifo:hover, #lwallets:hover {
@@ -71,7 +76,7 @@
     <p><strong>4</strong> Coin scanned so far! Would you like to see a new coin? <a href="https://m.facebook.com/profile.php?id=61555403785690">Message us on Facebook!</a></p>
     <div style="display: flex">
         <div style="border: 5px solid white; width:23%; height: 80svh; padding-left: 20px; border-bottom-left-radius: 10px; border-top-left-radius: 10px; border-right: none;">
-            <h3 style="margin-left: -20px"><small><small><span id="ifo" class="selected">Info</span> | <span id="lwallets">Largest Wallets</span></small></small></h3>
+            <h3 style="margin-left: -20px"><small><small><span id="ifo" class="selected">Info</span> | <span id="lwallets" class="notselected">Largest Wallets</span></small></small></h3>
             <div id="ifo_div">
                 <h2><small>Name:</small> <span></span></h2>
                 <h2><small>Contract:</small><h4> <span></span></h4></h2>

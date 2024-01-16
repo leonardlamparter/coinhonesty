@@ -33,7 +33,7 @@ function select(h) {
   ]
   
   ifo_lwallets[h? 1:0].className = "selected"
-  ifo_lwallets[h? 0:1].className = ""
+  ifo_lwallets[h? 0:1].className = "notselected"
 }
 
 document.getElementById("ifo").addEventListener('click', () => {
