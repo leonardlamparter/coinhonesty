@@ -13,7 +13,7 @@ setInterval(()=> {
 
 function scanHTML(s) {
     return `<div><a href="${s.scanlink}">
-                <img src="${s.img}">
+                <img src="${s.img}" style="width: 100px">
                 <h3>${s.name}</h3>
                 <h4>${s.ch}</h4>
             </a></div>`
