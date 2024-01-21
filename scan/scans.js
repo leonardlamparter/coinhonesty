@@ -22,7 +22,9 @@ var scans = {
     "lnks_e" : false,
     "htb" : "This is a scan used for testing purpouses, this is a real coin, how to buy this coin was not par of our website when we first launched",
     "cols" : [-1, -1, 0, 1, -1, 1, 1, 1, 1],
-    "l_wallets" : ["...", "...", "...", "...", "...", "...", "...", "...", "...", "..."]
+    "l_wallets" : ["...", "...", "...", "...", "...", "...", "...", "...", "...", "..."],
+    "buyworthy": false,
+    "date": "December 2023"
     },
     "SNEK":
     {
@@ -47,7 +49,10 @@ var scans = {
     "lnks_e" : true,
     "htb" : "To buy <coin>$SNEK</coin>, you will need <coin>$ADA</coin> (Cardano), from there you can trade your <coin>$ADA</coin> to <coin>$SNEK</coin> on Minswap [https://minswap.org/]",
     "cols" : [-1, -1, 1, 1, -1, 1, 1, 1, 1],
-    "l_wallets" : ["...", "...", "...", "...", "...", "...", "...", "...", "...", "..."]
+    "l_wallets" : ["...", "...", "...", "...", "...", "...", "...", "...", "...", "..."],
+    "buyworthy": true,
+    "date": "January 3, 2024",
+    "chain": "CARDANO"
     },
     "DED":
     {
@@ -72,7 +77,10 @@ var scans = {
     "lnks_e" : true,
     "htb" : "To participate in the airdrop, buy <coin>$DOT</coin> (Polkadot), 1 <coin>$DOT</coin> = 1000 <coin>$DED</coin>",
     "cols" : [-1, -1, 0, 0, -1, 0, 0, 0, 0],
-    "l_wallets" : ["...", "...", "...", "...", "...", "...", "...", "...", "...", "..."]
+    "l_wallets" : ["...", "...", "...", "...", "...", "...", "...", "...", "...", "..."],
+    "buyworthy": true,
+    "date": "December 2023",
+    "chain": "DOT"
     },
     "MYRO":
     {
@@ -97,6 +105,35 @@ var scans = {
     "lnks_e" : true,
     "htb" : "First, buy <coin>$SOL</coin> (Solana), from there you can use MEXC to convert to <coin>$MYRO</coin>",
     "cols" : [-1, -1, 0, 1, -1, 1, 1, 1, 1],
-    "l_wallets" : ["55.840% <small><small>(Uniswap V2)</small></small>", "7.000%", "6.599% <small><small>(Creator)</small></small>", "4.553%", "4.467%", "2.580%", "2.558%", "2.146%", "1.491%", "0.833%"]
+    "l_wallets" : ["55.840% <small><small>(Uniswap V2)</small></small>", "7.000%", "6.599% <small><small>(Creator)</small></small>", "4.553%", "4.467%", "2.580%", "2.558%", "2.146%", "1.491%", "0.833%"],
+    "buyworthy": false,
+    "date": "Janunary 19, 2024",
+    "chain": "CARDANO"
+    },
+    "MEMEAI":
+    {
+    "name": "Meme AI",
+    "contract": "0x695d38EB4e57E0f137e36df7c1f0f2635981246b",
+    "defi": 60,
+    "l_whale": 4.00,
+    "funny": "😆",
+    "h24_vol": 2267738,
+    "swaps": 1134,
+    "ttl_liq": 101200,
+    "ch": 92,
+    "lnks" : [
+        "https://twitter.com/memeaicoin", // X
+        "https://de.fi/scanner/contract/0x695d38eb4e57e0f137e36df7c1f0f2635981246b?chainId=eth", // De.Fi
+        "https://etherscan.io/address/0x695d38EB4e57E0f137e36df7c1f0f2635981246b", // Etherscan
+        "../notfound", // Bubblemaps
+        "https://coinmarketcap.com/currencies/meme-ai-token/", // CMC
+        "https://www.geckoterminal.com/eth/pools/0x2fa947313b2598af518a9a8e43ca8aae4d4427b2"  // CoinGecko
+    ],
+    "lnks_e" : true,
+    "htb" : "First buy $ETH, from there you can trade your $ETH to $MEMEAI on Uniswap V2",
+    "l_wallets" : ["4.000%", "4.000%", "4.000%", "3.461% <small><small>(Uniswap V2)</small></small>", "3.339%", "1.019%", "1.000%", "0.972%", "0.969%", "0.957%"],
+    "buyworthy": true,
+    "date": "Janunary 21, 2024",
+    "chain": "ETH"
     },
 }

@@ -61,5 +61,5 @@ function getRecomendations(val) {
 }
 
 document.querySelector("#ticker").addEventListener("change", _ => {
-    document.querySelector("#ticker").value = getRecomendations(document.querySelector("#ticker").value)[0] || document.querySelector("#ticker").value
+    document.querySelector("#ticker").value = getRecomendations(document.querySelector("#ticker").value.toLocaleUpperCase())[0] || document.querySelector("#ticker").value.toLocaleUpperCase()
 })

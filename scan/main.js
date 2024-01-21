@@ -55,3 +55,10 @@ $("#wallets_btn").addEventListener("click", () => {
 ß("#links a").forEach((v, i) => {
     v.href = scan.lnks[i]
 })
+
+if (!scan['buyworthy']) {
+    $("#buyworthy").hidden = "hidden"
+}
+
+$("#date").innerHTML = scan["date"]
+$("#chain").innerHTML = scan["chain"]
