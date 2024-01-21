@@ -1,5 +1,6 @@
 // Add jQuery $() Function
 function $(x) {return document.querySelector(x)}
+function ß(x) {return document.querySelectorAll(x)}
 
 // Get Query And Scan Result
 var query={};location.search.replace('?','').split('&').forEach(v=>query[v.split('=')[0]]=v.split('=')[1])
@@ -38,7 +39,7 @@ $("#lw").innerHTML = scan.l_whale + "% " + (scan.l_whale<=15? "✓" : "×")
 
 // Update Top 10 Wallets
 var i = 0
-document.querySelectorAll("#wlts li").forEach((v) => {
+ß("#wlts li").forEach((v) => {
     v.innerHTML = scan.l_wallets[i]
     i++
 })
@@ -48,4 +49,9 @@ var wallets_shown = true
 $("#wallets_btn").addEventListener("click", () => {
     $("#wallets").hidden = !wallets_shown
     wallets_shown = !wallets_shown
+})
+
+// Update Link HREFs
+ß("#links a").forEach((v, i) => {
+    v.href = scan.lnks[i]
 })
