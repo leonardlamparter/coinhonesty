@@ -56,9 +56,17 @@ $("#wallets_btn").addEventListener("click", () => {
     v.href = scan.lnks[i]
 })
 
-if (!scan['buyworthy']) {
-    $("#buyworthy").hidden = "hidden"
-}
+// create r (repeat) function for string
+var r=(str,x)=>{var res=["", 0];while (res[1]<x) {res[0]+=str; res[1]++}return res[0]}
 
+// Update..
+// date
 $("#date").innerHTML = scan["date"]
+// chain
 $("#chain").innerHTML = scan["chain"]
+// chain logo
+$("#chainlogo").src = scan["chainimg"]
+// coin logo
+$("#coinlogo").src = scan["logo"]
+// star rating
+$("#buyworthy").innerHTML = r("✭", scan["starscore"])+r("✩", 5-scan["starscore"])

@@ -101,3 +101,14 @@ form {
 [--align-c] {
     text-align: center;
 }
+
+#buyworthy {
+    font-size: 50px;
+    color: rgb(255, 255, 100);
+    background-color: black;
+    border-radius: 10px;
+}
+
+#coinlogo, #chainlogo {
+    border-radius: 50%;
+}

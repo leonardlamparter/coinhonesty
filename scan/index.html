@@ -10,14 +10,15 @@
 <body>
     <div -bgg fill-aria>
         <a href="../"><h4>⬅︎ Go Home</h4></a>
-        <p>Scanned On <span id="date">January 21, 2024</span></p>
+        <p>Scanned On <span id="date">January 21, 2024</span> (<a href="../addcoin/">Add Or Request A New Coin</a>)</p>
         <div class="blackborder">
-            <div id="buyworthy">
-                <img src="../src/buyworthy.png" alt="BUY WORTHY" width="100px">
-                <p>Good Buy! <br><small>(Always DYOR)</small></p>
-            </div>
-            <h1><small>CH score of </small><span id="name"></span> <small><small>on <span id="chain"></span></small></small> <br> <small><small><small><small id="contract"></small></small></small></small></h1>
-            <h1><span id="ch"></span>/100</h1>
+            <h1>
+                <img src="" id="coinlogo" width="35px"> <span id="name"></span> 
+                <small>on the <img src="" id="chainlogo" width="35px"> <big id="chain"></big> blockchain</small>
+            </h1>
+            <h1>CoinHonesty score: <span id="ch"></span>/100</h1>
+            <div id="buyworthy"></div>
+            <h1><small><small><small>Contract Address: <span id="contract"></span></small></small></small></h1>
         </div>
         <div --flexi -space-evenly id="links">
             <a href=""><img src="../src/X.png" width="70px"> <br> X <br> <small><small>(Twitter)</small></small></a>
@@ -29,7 +30,6 @@
         </div>
     </div>
     <div>
-        <a href="../addcoin/"><p style="margin-left: 10px;">Add Or Request A New Coin</p></a>
         <div --flexi>
             <div class="blackborder b">
                 <h2>24-Hour Volume</h2>
