@@ -70,3 +70,5 @@ $("#chainlogo").src = scan["chainimg"]
 $("#coinlogo").src = scan["logo"]
 // star rating
 $("#buyworthy").innerHTML = r("✭", scan["starscore"])+r("✩", 5-scan["starscore"])
+// widget
+$("#price").innerHTML = scan["widget_code"]
