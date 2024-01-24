@@ -14,11 +14,11 @@
         <div class="blackborder">
             <h1>
                 <img src="" id="coinlogo" width="35px"> <span id="name"></span> 
-                <small>on the <img src="" id="chainlogo" width="35px"> <big id="chain"></big> blockchain</small>
+                <small>on the <img src="" id="chainlogo" width="25px"> <span id="chain"></span> blockchain</small>
             </h1>
             <h1>CoinHonesty score: <span id="ch"></span>/100</h1>
-            <a href="../whitepapers/scoring/v1.txt"><h6>Click To See The CoinHonesty Scoring Whitepaper</h6></a>
-            <div id="buyworthy"></div>
+            <a href="../whitepapers/scoring/v1.html"><h6>Click To See The CoinHonesty Scoring Whitepaper</h6></a>
+            <div -space-evenly style="padding-left: 30%; padding-right: 30%;"><div id="buyworthy"></div></div>
             <h1><small><small><small>Contract Address: <span id="contract"></span></small></small></small></h1>
         </div>
         <div --flexi -space-evenly id="links">
@@ -84,10 +84,55 @@
             </div>
         </div>
     </div>
-    <div class="backborder a" --flexi -space-evenly>
-        <h1 --align-c hidden>See More Data <br> <small><small><small><small>(For Detailed Research)</small></small></small></small></h1>
-        <h1>More Data Is Coming Soon!!</h1>
-    </div>
+    <div class="blackborder a">
+        <h2 --align-c id="openadvanced">See More Data <br> <small><small><small><small>(For Detailed Research)</small></small></small></small></h2>
+        <div  id="advancedview" style="display: none">
+            <div --flexi>
+                <div class="blackborder b">
+                    <h2>Average Holders Derivative</h2>
+                    <h3 id="ahd"></h3>
+                    <div class="bar-outer">
+                        <div class="ahd bar-inner"></div>
+                    </div>
+                </div>
+                <div class="blackborder b">
+                    <h2>Total Holders</h2>
+                    <h3 id="holders"></h3>
+                    <div class="bar-outer">
+                        <div class="holders bar-inner"></div>
+                    </div>
+                </div>
+            </div>
+            <div --flexi>
+                <div class="blackborder b">
+                    <h2>Rememberance</h2>
+                    <h3 id="rem"></h3>
+                </div>
+                <div class="blackborder b">
+                    <h2>Buy Ease</h2>
+                    <h3 id="buy_ease"></h3>
+                </div>
+            </div>
+            <div --flexi>
+                <div class="blackborder b">
+                    <h2>Posts/Week on 𝕏</h2>
+                    <h3 id="ppw"></h3>
+                    <div class="bar-outer">
+                        <div class="ppw bar-inner"></div>
+                    </div>
+                </div>
+                <div class="blackborder b">
+                    <h2>How To Buy</h2>
+                    <p id="htb"></p>
+                </div>
+            </div>
+            <div class="blackborder d">
+                <h2>Extra:</h2>
+                <ul id="extraons">
+                </ul>
+            </div>
+        </div>
+        </div>
     <script src="./scans.js"></script>
     <script src="./main.js"></script>
     <script src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
