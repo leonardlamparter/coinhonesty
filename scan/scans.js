@@ -181,7 +181,7 @@ var scans = {
     "chain": "ETH",
     "chainimg": "https://assets.coingecko.com/coins/images/279/standard/ethereum.png?1696501628",
     "logo": "https://assets.coingecko.com/coins/images/30384/standard/karate.jpg?1696529274",
-    "starscore": 0,
+    "starscore": 5,
     "widget_code": '<div class="livecoinwatch-widget-1" lcw-coin="KARATE" lcw-base="USD" lcw-secondary="BTC" lcw-period="d" lcw-color-tx="#000000" lcw-color-pr="#58c7c5" lcw-color-bg="#ffffff" lcw-border-w="1" ></div>',
     // Advanced View
     "avg_hold_deriv": 0,
