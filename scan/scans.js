@@ -153,4 +153,42 @@ var scans = {
     "x_ppw": 37,
     "extraons": ["Listed On BitMart"]
     },
+
+    "KARATE":
+    {
+    "name": "Karate Combat",
+    "contract": "0x80008BCD713c38AF90a9930288D446bc3bD2E684",
+    "defi": 100,
+    "l_whale": 2.183,
+    "funny": "😆",
+    "h24_vol": 1030000,
+    "swaps": 33618,
+    "ttl_liq": 870500,
+    "ch": 92,
+    "lnks" : [
+        "https://twitter.com/KarateCombat", // X
+        "https://de.fi/scanner/contract/0x80008BCD713c38AF90a9930288D446bc3bD2E684?chainId=eth", // De.Fi
+        "https://etherscan.io/token/0x80008BCD713c38AF90a9930288D446bc3bD2E684", // Etherscan
+        "https://app.bubblemaps.io/eth/token/0x80008BCD713c38AF90a9930288D446bc3bD2E684", // Bubblemaps
+        "https://coinmarketcap.com/currencies/karate-combat/", // CMC
+        "https://www.coingecko.com/en/coins/karate-combat"  // CoinGecko
+    ],
+    "lnks_e" : true,
+    "htb" : "To buy <coin>$KARATE</coin>, you will need <coin>$ETH</coin> (Ethereum), from there you can trade your <coin>$ETH</coin> to <coin>$KARATE</coin> on Uniswap V3, Gate.io, KuCoin, and more! (See CMC for all exchanges)",
+    "l_wallets" : ["91.428% (Owner and Treasury)", "2.183%", "1.069%", "0.482%", "0.420%", "0.356%", "0.333%", "0.285%", "0.284%", "0.282%"],
+    "buyworthy": true,
+    "date": "January 25, 2024",
+    "chain": "ETH",
+    "chainimg": "https://assets.coingecko.com/coins/images/279/standard/ethereum.png?1696501628",
+    "logo": "https://assets.coingecko.com/coins/images/30384/standard/karate.jpg?1696529274",
+    "starscore": 0,
+    "widget_code": '<div class="livecoinwatch-widget-1" lcw-coin="KARATE" lcw-base="USD" lcw-secondary="BTC" lcw-period="d" lcw-color-tx="#000000" lcw-color-pr="#58c7c5" lcw-color-bg="#ffffff" lcw-border-w="1" ></div>',
+    // Advanced View
+    "avg_hold_deriv": 0,
+    "holders": 3366,
+    "rememberance": 3,
+    "buy_ease": "Quite Easy",
+    "x_ppw": 29,
+    "extraons": ["Betting", "Treasury"]
+    },
 }
