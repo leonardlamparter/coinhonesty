@@ -112,3 +112,18 @@ form {
 #coinlogo, #chainlogo {
     border-radius: 50%;
 }
+
+#openadvanced {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#openadvanced div {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#openadvanced div:hover {
+    cursor: pointer;
+    text-decoration: dotted underline;
+}

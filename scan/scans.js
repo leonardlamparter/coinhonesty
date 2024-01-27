@@ -146,7 +146,7 @@ var scans = {
     "starscore": 3,
     "widget_code": '<div class="livecoinwatch-widget-1" lcw-coin="_MEMEAI" lcw-base="USD" lcw-secondary="BTC" lcw-period="d" lcw-color-tx="#000000" lcw-color-pr="#58c7c5" lcw-color-bg="#ffffff" lcw-border-w="1" ></div>',
     // Advanced View
-    "avg_hold_deriv": 0,
+    "avg_hold_deriv": 1.6,
     "holders": 1494,
     "rememberance": 2,
     "buy_ease": "Availible On CEX",
@@ -164,7 +164,7 @@ var scans = {
     "h24_vol": 1030000,
     "swaps": 33618,
     "ttl_liq": 870500,
-    "ch": 92,
+    "ch": 94,
     "lnks" : [
         "https://twitter.com/KarateCombat", // X
         "https://de.fi/scanner/contract/0x80008BCD713c38AF90a9930288D446bc3bD2E684?chainId=eth", // De.Fi
@@ -184,7 +184,7 @@ var scans = {
     "starscore": 5,
     "widget_code": '<div class="livecoinwatch-widget-1" lcw-coin="KARATE" lcw-base="USD" lcw-secondary="BTC" lcw-period="d" lcw-color-tx="#000000" lcw-color-pr="#58c7c5" lcw-color-bg="#ffffff" lcw-border-w="1" ></div>',
     // Advanced View
-    "avg_hold_deriv": 0,
+    "avg_hold_deriv": 28,
     "holders": 3366,
     "rememberance": 3,
     "buy_ease": "Quite Easy",

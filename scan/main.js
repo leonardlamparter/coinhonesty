@@ -93,6 +93,15 @@ if (scan==undefined) location.href = "../notfound"
         })
     }, 10)
     // On Open Advanced View Click
+    var advancedopen = false
     $("#openadvanced").addEventListener('click', () => {
-        $("#advancedview").style = "display: inherit"
+        $("#advancedview").style = "display: "+ (advancedopen? "none" : "inherit")
+        advancedopen = !advancedopen
     })
+
+var turn = 0
+setInterval(() => {
+    $("body").style = `background: linear-gradient(${turn}turn, gray, white);`
+    turn += 1/1000
+    turn>=1?turn=0:''
+}, 1)
