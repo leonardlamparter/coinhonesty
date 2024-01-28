@@ -9,7 +9,7 @@ var scans = {
     "h24_vol": 4329370,
     "swaps": 1238674,
     "ttl_liq": 1170000,
-    "ch": 93.9,
+    "ch": 95.9,
     "bar_dta": [4.32937, 123.8674, 1.17],
     "lnks" : [
         "https://twitter.com/snekcoinada?lang=en", // X
@@ -31,6 +31,7 @@ var scans = {
     "starscore": 5,
     "widget_code": '<div class="livecoinwatch-widget-1" lcw-coin="_SNEK" lcw-base="USD" lcw-secondary="BTC" lcw-period="d" lcw-color-tx="#000000" lcw-color-pr="#58c7c5" lcw-color-bg="#ffffff" lcw-border-w="1" ></div>',
     // Advanced View
+    "ahdpot": 0.06232590529,
     "avg_hold_deriv": 89.5,
     "holders": 1436,
     "rememberance": 3,
@@ -48,7 +49,7 @@ var scans = {
     "h24_vol": 0,
     "swaps": 0,
     "ttl_liq": 0,
-    "ch": 39,
+    "ch": 40,
     "bar_dta": [0, 0, 0],
     "lnks" : [
         "https://twitter.com/dotisded", // X
@@ -70,6 +71,7 @@ var scans = {
     "starscore": 3,
     "widget_code": '',
     // Advanced View
+    "ahdpot": 0,
     "avg_hold_deriv": 0,
     "holders": 0,
     "rememberance": 3,
@@ -87,7 +89,7 @@ var scans = {
     "h24_vol": 13390000,
     "swaps": 25134,
     "ttl_liq": 1970000,
-    "ch": 76.8,
+    "ch": 77.8,
     "bar_dta": [13.39, 25.134, 1.97],
     "lnks" : [
         "https://twitter.com/myrosol", // X
@@ -109,6 +111,7 @@ var scans = {
     "starscore": 4,
     "widget_code": '<div class="livecoinwatch-widget-1" lcw-coin="_MYRO" lcw-base="USD" lcw-secondary="BTC" lcw-period="d" lcw-color-tx="#000000" lcw-color-pr="#58c7c5" lcw-color-bg="#ffffff" lcw-border-w="1" ></div>',
     // Advanced View
+    "ahdpot": 0,
     "avg_hold_deriv": 0,
     "holders": 0,
     "rememberance": 2,
@@ -126,7 +129,7 @@ var scans = {
     "h24_vol": 2267738,
     "swaps": 13206,
     "ttl_liq": 101200,
-    "ch": 85,
+    "ch": 88,
     "lnks" : [
         "https://twitter.com/memeaicoin", // X
         "https://de.fi/scanner/contract/0x695d38eb4e57e0f137e36df7c1f0f2635981246b?chainId=eth", // De.Fi
@@ -146,6 +149,7 @@ var scans = {
     "starscore": 3,
     "widget_code": '<div class="livecoinwatch-widget-1" lcw-coin="_MEMEAI" lcw-base="USD" lcw-secondary="BTC" lcw-period="d" lcw-color-tx="#000000" lcw-color-pr="#58c7c5" lcw-color-bg="#ffffff" lcw-border-w="1" ></div>',
     // Advanced View
+    "ahdpot": 0.001070950469,
     "avg_hold_deriv": 1.6,
     "holders": 1494,
     "rememberance": 2,
@@ -164,7 +168,7 @@ var scans = {
     "h24_vol": 1030000,
     "swaps": 33618,
     "ttl_liq": 870500,
-    "ch": 96,
+    "ch": 100,
     "lnks" : [
         "https://twitter.com/KarateCombat", // X
         "https://de.fi/scanner/contract/0x80008BCD713c38AF90a9930288D446bc3bD2E684?chainId=eth", // De.Fi
@@ -184,6 +188,7 @@ var scans = {
     "starscore": 5,
     "widget_code": '<div class="livecoinwatch-widget-1" lcw-coin="KARATE" lcw-base="USD" lcw-secondary="BTC" lcw-period="d" lcw-color-tx="#000000" lcw-color-pr="#58c7c5" lcw-color-bg="#ffffff" lcw-border-w="1" ></div>',
     // Advanced View
+    "ahdpot": 0.008318478907,
     "avg_hold_deriv": 28,
     "holders": 3366,
     "rememberance": 3,

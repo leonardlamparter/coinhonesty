@@ -8,7 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Sort by CH score</h2>
+    <a href="../"><h4>⬅︎ Go Home</h4></a>
+    <h2>
+        Sort by 
+        <select id="sort_opts">
+            <option value="ch_high">CH score (Highest First)</option>
+            <option value="ch_low">CH score (Lowest First)</option>
+            <option value="new">Release Date (Newest)</option>
+            <option value="old">Release Date (Oldest)</option>
+            <option value="az">Name (A-Z)</option>
+            <option value="za">Name (Z-A)</option>
+        </select>
+    </h2>
     <div id="sorted">
         
     </div>

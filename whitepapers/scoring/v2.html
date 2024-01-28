@@ -1,0 +1,87 @@
+<button onclick="history.back()">Go Back</button>
+<h1>CoinHonesty Scoring White-paper V2:</h1>
+
+<ol>
+    <li>Funny: +3 pts</li>
+    <li>Usage: +4 pts</li>
+    <li>24h volume > $1M: +13 pts</li>
+    <li>10K+ total transactions: +10 pts</li>
+    <li>$15+ liquidity to get +15 pts</li>
+    <li>15% or less whale: +10 pts</li>
+    <li>1K+ holders: +5 pts</li>
+    <li>10 De.Fi pts = 1 CH pts</li>
+    <li>Rememberance:   Scored out of 4 (0, 1, 2, 3), multiplier of 5. (e.g. 2 of 3 = 10 pts, 0 of 3 = 0 pts)</li>
+    <li>Buying Ease:    Scored out of 5, each giving 1 pt</li>
+    <li>AHDPOT or ANHPDDBTH (average new holders per day divided by total holders):    ﹤0.1%: 1 pt; ﹤0.3%: 2 pts; ﹤0.5%: 3 pts; ﹤0.8%: 4 pts; ﹥0.8%: 5 pts</li>
+    <li>X account: +1 pt</li>
+    <li>1+ X posts per week: +2 pts</li>
+    <li>On CMC: +2 pts</li>
+</ol>
+
+Source code:
+<p>
+    <small style="float: right;"><small>Javascript</small></small>
+    var scan = {} /* JSON scan data here */<br><br>
+
+    var ch = 0;<br><br>
+
+    // Funny<br>
+    let funny = true;<br>
+    ch += funny? 3 : 0<br><br>
+
+    // Usage<br>
+    ch += (scan["extraons"] != [])?4:0<br><br>
+
+    // Volume<br>
+    ch += (scan["h24_vol"]>=1000000? 13 : 0)<br><br>
+
+    // Swaps<br>
+    ch += (scan["swaps"]>=10000? 10 : 0)<br><br>
+
+    // Liquidity<br>
+    ch += (scan["ttl_liq"]>=10000? 15 : Math.floor(scan["ttl_liq"]/1000))<br><br>
+
+    // Whales<br>
+    ch += (scan["l_whale"]<15? 10 : 0)<br><br>
+
+    // Holders<br>
+    ch += (scan["holders"]>=1000? 5 : 0)<br><br>
+
+    // De.Fi<br>
+    ch += (scan["defi"]/10)<br><br>
+
+    // Rememberance<br>
+    ch += (scan["rememberance"]*5)<br><br>
+
+    // Buy Ease<br>
+    var buy_ease_options = {<br>
+        "Unbuyable":0,<br>
+        "Hard To Buy":1,<br>
+        "Okay":2,<br>
+        "Quite Easy":3,<br>
+        "Easy":4,<br>
+        "Availible On CEX":5<br>
+    }<br>
+    ch += buy_ease_options[scan["buy_ease"]]<br><br>
+
+    // AHDPOT<br>
+    ch += (<br>
+        scan["ahdpot"]<0.00001? 0 :<br>
+        scan["ahdpot"]<0.001? 1 :<br>
+        scan["ahdpot"]<0.003? 2 :<br>
+        scan["ahdpot"]<0.005? 3 :<br>
+        scan["ahdpot"]<0.008? 4 : <br>
+        5<br>
+    )<br><br>
+
+    // X<br>
+    ch += (scan["lnks"][0] != "../notfound"? 1 : 0)<br>
+    ch += (scan["x_ppw"] >= 1? 2 : 0)<br><br>
+
+    // CMC<br>
+    ch += (scan["lnks"][4] != "../notfound"? 1 : 0)<br><br>
+
+    // Return CH Score<br>
+    console.log(ch)
+</p>
+<style>p {font-family: 'Courier New', Courier, monospace; background-color: rgb(243, 243, 255); border: 3px solid black; padding: 10px; border-radius: 10px; font-size: 12px;}</style>
