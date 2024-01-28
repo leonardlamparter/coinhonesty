@@ -44,25 +44,27 @@ form {
     text-align: center;
 }
 
-/* actually backborder b */
 .blackborder.b {
     background-color: rgb(240, 240, 240);
     width: 50vw;
 }
 
-/* actually backborder c */
 .blackborder.c {
     background-color: white;
 }
 
-/* actually backborder d */
 .blackborder.d {
     background-color: rgb(240, 240, 240);
 }
 
+[clickable] {
+    text-decoration: underline !important;
+    color: rgb(0, 150, 255) !important;
+}
+
 [href] {
     text-decoration: none;
-    color: inherit
+    color: inherit;
 }
 
 #wallets_btn {

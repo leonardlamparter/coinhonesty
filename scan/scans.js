@@ -164,7 +164,7 @@ var scans = {
     "h24_vol": 1030000,
     "swaps": 33618,
     "ttl_liq": 870500,
-    "ch": 94,
+    "ch": 96,
     "lnks" : [
         "https://twitter.com/KarateCombat", // X
         "https://de.fi/scanner/contract/0x80008BCD713c38AF90a9930288D446bc3bD2E684?chainId=eth", // De.Fi
@@ -187,7 +187,7 @@ var scans = {
     "avg_hold_deriv": 28,
     "holders": 3366,
     "rememberance": 3,
-    "buy_ease": "Quite Easy",
+    "buy_ease": "Availible On CEX",
     "x_ppw": 29,
     "extraons": ["Betting", "Treasury"]
     },

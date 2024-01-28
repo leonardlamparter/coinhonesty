@@ -2,7 +2,7 @@ var scans = [
     {
         "name": "KARATE",
         "img": "https://assets.coingecko.com/coins/images/30384/standard/karate.jpg?1696529274",
-        "ch": 94,
+        "ch": 96,
         "scanlink": "./scan/?ticker=KARATE",
     },
     {

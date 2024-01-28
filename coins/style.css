@@ -18,6 +18,11 @@ body {
     margin-bottom: 10px;
 }
 
+[clickable] {
+    text-decoration: underline !important;
+    color: rgb(0, 150, 255) !important;
+}
+
 [href] {
     text-decoration: none;
     color: inherit;
