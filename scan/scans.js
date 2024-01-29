@@ -196,4 +196,82 @@ var scans = {
     "x_ppw": 29,
     "extraons": ["Betting", "Treasury"]
     },
+
+    "WEN":
+    {
+    "name": "WEN",
+    "contract": "0x830a8512db4f6fca51968593e2667156c2c483a8",
+    "defi": 96,
+    "l_whale": 2.099,
+    "funny": true,
+    "h24_vol": 1100000,
+    "swaps": 28313,
+    "ttl_liq": 178200,
+    "ch": 91.6,
+    "lnks" : [
+        "https://twitter.com/WENTokenOrg", // X
+        "https://de.fi/scanner/contract/0x830a8512db4f6fca51968593e2667156c2c483a8?chainId=eth", // De.Fi
+        "0x830a8512db4F6fCA51968593E2667156C2c483A8", // Etherscan
+        "https://app.bubblemaps.io/eth/token/0x830a8512db4f6fca51968593e2667156c2c483a8", // Bubblemaps
+        "https://coinmarketcap.com/currencies/wen-token/", // CMC
+        "https://www.geckoterminal.com/eth/pools/0xcf099e75c80a2a01cfd6d6448e4cdf59b7f5d7ec?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults"  // CoinGecko
+    ],
+    "lnks_e" : false,
+    "htb" : "First, get some $ETH, then use Uniswap V2 or OpenOcean to trade your $ETH to $WEN",
+    "l_wallets" : ["15.181% (Uniswap V2)", "4.035% (FxERC20RootTunnel Contract)", "3.627% (WENAirdrop)", "2.009%", "2.082%", "2.077%", "1.955%", "1.722%", "1.544%", "1.464%"],
+    "buyworthy": true,
+    "date": "January 29, 2024",
+    "chain": "ETH",
+    "chainimg": "https://assets.coingecko.com/coins/images/279/standard/ethereum.png?1696501628",
+    "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/25256.png",
+    "starscore": 5,
+    "widget_code": '<div class="livecoinwatch-widget-1" lcw-coin="ERROR" lcw-base="USD" lcw-secondary="BTC" lcw-period="d" lcw-color-tx="#000000" lcw-color-pr="#58c7c5" lcw-color-bg="#ffffff" lcw-border-w="1" ></div>',
+    // Advanced View
+    "ahdpot": 0,
+    "avg_hold_deriv": 0,
+    "holders": 3854,
+    "rememberance": 3,
+    "buy_ease": "Easy",
+    "x_ppw": 0,
+    "extraons": ["Airdrop"]
+    },
+
+    // "":
+    // {
+    // "name": "",
+    // "contract": "",
+    // "defi": 0,
+    // "l_whale": 0,
+    // "funny": "",
+    // "h24_vol": 0,
+    // "swaps": 0,
+    // "ttl_liq": 0,
+    // "ch": 0,
+    // "lnks" : [
+    //     "", // X
+    //     "", // De.Fi
+    //     "", // Etherscan
+    //     "", // Bubblemaps
+    //     "", // CMC
+    //     ""  // CoinGecko
+    // ],
+    // "lnks_e" : false,
+    // "htb" : "",
+    // "l_wallets" : [],
+    // "buyworthy": true,
+    // "date": "January 29, 2024",
+    // "chain": "",
+    // "chainimg": "",
+    // "logo": "",
+    // "starscore": 0,
+    // "widget_code": '',
+    // // Advanced View
+    // "ahdpot": 0,
+    // "avg_hold_deriv": 0,
+    // "holders": 0,
+    // "rememberance": 0,
+    // "buy_ease": "",
+    // "x_ppw": 0,
+    // "extraons": []
+    // },
 }

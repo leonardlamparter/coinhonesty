@@ -2,7 +2,7 @@
 <html lang="en">
 <script>
     if (location.search.length > 1) {
-        location.href = location.search.replace('?','../scan/?ticker=')
+        location.href = location.search.replace('?','scan/?ticker=')
     }
 </script>
 <head>
@@ -23,7 +23,8 @@
         </form>
     </div>
     <h2 style="margin-left: 10px;">Newest Coins <a href="./coins/" clickable><small>(see more)</small></a></h2>
-    <a href="./addcoin/"><p style="margin-left: 10px;">Add Or Request A Coin</p></a>
+    <a href="./addcoin/" clickable><p style="margin-left: 10px;">Add Or Request A Coin</p></a>
+    <a href="./waitlist/" clickable><p style="margin-left: 10px;">See our waitlist</p></a>
     <div id="new">
     </div>
     <script src="./scans.js"></script>

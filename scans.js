@@ -1,5 +1,12 @@
 var scans = [
     {
+        "name": "WEN",
+        "img": "https://s2.coinmarketcap.com/static/img/coins/64x64/25256.png",
+        "ch": 91.6,
+        "scanlink": "./scan/?ticker=WEN",
+        "date": new Date('January 29, 2024')
+    },
+    {
         "name": "KARATE",
         "img": "https://assets.coingecko.com/coins/images/30384/standard/karate.jpg?1696529274",
         "ch": 100,
